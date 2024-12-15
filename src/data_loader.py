@@ -16,5 +16,3 @@ def save_data(df, name):
 # function to save a dataset to the processed folder from the root directory
 def save_data_root(df, name):
     df.to_csv("data/processed/" + name, index=False)
-
-
